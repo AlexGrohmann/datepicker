@@ -1,4 +1,4 @@
-import { DateRange } from 'types/Matchers';
+import { DateRange } from '../types/Matchers';
 
 import { ActiveModifiers } from './Modifiers';
 
