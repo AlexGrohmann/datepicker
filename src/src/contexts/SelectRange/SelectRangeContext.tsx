@@ -7,11 +7,11 @@ import {
   subDays
 } from 'date-fns';
 
-import { DayPickerBase } from 'types/DayPickerBase';
-import { DayPickerRangeProps, isDayPickerRange } from 'types/DayPickerRange';
-import { DayClickEventHandler } from 'types/EventHandlers';
-import { DateRange } from 'types/Matchers';
-import { InternalModifier, Modifiers } from 'types/Modifiers';
+import { DayPickerBase } from '../../types/DayPickerBase';
+import { DayPickerRangeProps, isDayPickerRange } from '../../types/DayPickerRange';
+import { DayClickEventHandler } from '../../types/EventHandlers';
+import { DateRange } from '../../types/Matchers';
+import { InternalModifier, Modifiers } from '../../types/Modifiers';
 
 import { addToRange } from './utils/addToRange';
 

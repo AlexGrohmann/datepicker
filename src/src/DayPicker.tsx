@@ -5,7 +5,7 @@ import { DayPickerMultipleProps } from './types/DayPickerMultiple';
 import { DayPickerRangeProps } from './types/DayPickerRange';
 import { DayPickerSingleProps } from './types/DayPickerSingle';
 
-import { Root } from './components/Root';
+import { Root } from './components/Root/index';
 import { RootProvider } from './contexts/RootProvider';
 
 export type DayPickerProps =

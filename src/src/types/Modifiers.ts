@@ -1,4 +1,4 @@
-import { Matcher } from './Matchers';
+import { Matcher } from "./Matchers";
 
 /** A _modifier_ represents different styles or states of a day displayed in the calendar. */
 export type Modifier = string;
