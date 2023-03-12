@@ -1,11 +1,11 @@
 import { enUS } from 'date-fns/locale';
 
-import { CaptionLayout } from 'components/Caption';
-import { DayPickerContextValue } from 'contexts/DayPicker';
+import { CaptionLayout } from '../../components/Caption/index';
+import { DayPickerContextValue } from './DayPickerContext';
 
 import { defaultClassNames } from './defaultClassNames';
-import * as formatters from './formatters';
-import * as labels from './labels';
+import * as formatters from './formatters/index';
+import * as labels from './labels/index';
 
 export type DefaultContextProps =
   | 'captionLayout'

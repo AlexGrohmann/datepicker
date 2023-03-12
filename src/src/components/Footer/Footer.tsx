@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { useDayPicker } from 'contexts/DayPicker';
+import { useDayPicker } from '../../contexts/DayPicker/index';
 
 export interface FooterProps {
   /** The month where the footer is displayed. */

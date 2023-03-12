@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 
-import { useDayRender } from 'hooks/useDayRender';
+import { useDayRender } from '../../hooks/useDayRender/index';
 
 import { Button } from '../Button';
 

@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { HeadRow } from 'components/HeadRow';
-import { useDayPicker } from 'contexts/DayPicker';
+import { HeadRow } from '../../components/HeadRow/index';
+import { useDayPicker } from '../../contexts/DayPicker/index';
 
 /** Render the table head. */
 export function Head(): JSX.Element {

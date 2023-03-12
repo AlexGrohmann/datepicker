@@ -2,10 +2,10 @@ import React from 'react';
 
 import { isSameMonth } from 'date-fns';
 
-import { CaptionProps } from 'components/Caption/Caption';
-import { Navigation } from 'components/Navigation';
-import { useDayPicker } from 'contexts/DayPicker';
-import { useNavigation } from 'contexts/Navigation';
+import { CaptionProps } from '../../components/Caption/Caption';
+import { Navigation } from '../../components/Navigation/index';
+import { useDayPicker } from '../../contexts/DayPicker/index';
+import { useNavigation } from '../../contexts/Navigation/index';
 
 /**
  * Render a caption with a button-based navigation.

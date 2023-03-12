@@ -1,12 +1,12 @@
 import React from 'react';
 
-import { CaptionProps } from 'components/Caption/Caption';
-import { CaptionLabel } from 'components/CaptionLabel';
-import { MonthsDropdown } from 'components/MonthsDropdown';
-import { YearsDropdown } from 'components/YearsDropdown';
-import { useDayPicker } from 'contexts/DayPicker';
-import { useNavigation } from 'contexts/Navigation';
-import { MonthChangeEventHandler } from 'types/EventHandlers';
+import { CaptionProps } from '../../components/Caption/Caption';
+import { CaptionLabel } from '../../components/CaptionLabel/index';
+import { MonthsDropdown } from '../../components/MonthsDropdown/index';
+import { YearsDropdown } from '../../components/YearsDropdown/index';
+import { useDayPicker } from '../../contexts/DayPicker/index';
+import { useNavigation } from '../../contexts/Navigation/index';
+import { MonthChangeEventHandler } from '../../types/EventHandlers';
 
 /**
  * Render a caption with the dropdowns to navigate between months and years.

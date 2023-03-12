@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { Footer } from 'components/Footer';
-import { Head } from 'components/Head';
-import { Row } from 'components/Row';
-import { useDayPicker } from 'contexts/DayPicker';
+import { Footer } from '../../components/Footer/index';
+import { Head } from '../../components/Head/index';
+import { Row } from '../../components/Row/index';
+import { useDayPicker } from '../../contexts/DayPicker/index';
 
 import { getMonthWeeks } from './utils/getMonthWeeks';
 

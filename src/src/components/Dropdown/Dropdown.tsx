@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { IconDropdown } from 'components/IconDropdown';
-import { useDayPicker } from 'contexts/DayPicker';
+import { IconDropdown } from '../../components/IconDropdown/index';
+import { useDayPicker } from '../../contexts/DayPicker/index';
 
 /** The props for the {@link Dropdown} component. */
 export interface DropdownProps {

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { useDayPicker } from 'contexts/DayPicker';
+import { useDayPicker } from '../../contexts/DayPicker/index';
 
 /** The props for the {@link CaptionLabel} component. */
 export interface CaptionLabelProps {

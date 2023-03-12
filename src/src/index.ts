@@ -1,34 +1,35 @@
-export * from './DayPicker';
 import './style.css';
 
-export * from './components/Button';
-export * from './components/Caption';
-export * from './components/CaptionDropdowns';
-export * from './components/CaptionLabel';
-export * from './components/CaptionNavigation';
-export * from './components/Day';
-export * from './components/DayContent';
-export * from './components/Dropdown';
-export * from './components/Footer';
-export * from './components/Head';
-export * from './components/HeadRow';
-export * from './components/IconDropdown';
-export * from './components/IconRight';
-export * from './components/IconLeft';
-export * from './components/Row';
-export * from './components/WeekNumber';
+export * from './DayPicker';
 
-export * from './hooks/useInput';
-export * from './hooks/useDayRender';
-export * from './hooks/useActiveModifiers';
+export * from './components/Button/index';
+export * from './components/Caption/index';
+export * from './components/CaptionDropdowns/index';
+export * from './components/CaptionLabel/index';
+export * from './components/CaptionNavigation/index';
+export * from './components/Day/index';
+export * from './components/DayContent/index';
+export * from './components/Dropdown/index';
+export * from './components/Footer/index';
+export * from './components/Head/index';
+export * from './components/HeadRow/index';
+export * from './components/IconDropdown/index';
+export * from './components/IconRight/index';
+export * from './components/IconLeft/index';
+export * from './components/Row/index';
+export * from './components/WeekNumber/index';
 
-export * from './contexts/DayPicker';
-export * from './contexts/Focus';
-export * from './contexts/Navigation';
+export * from './hooks/useInput/index';
+export * from './hooks/useDayRender/index';
+export * from './hooks/useActiveModifiers/index';
+
+export * from './contexts/DayPicker/index';
+export * from './contexts/Focus/index';
+export * from './contexts/Navigation/index';
 export * from './contexts/RootProvider';
-export * from './contexts/SelectMultiple';
-export * from './contexts/SelectRange';
-export * from './contexts/SelectSingle';
+export * from './contexts/SelectMultiple/index';
+export * from './contexts/SelectRange/index';
+export * from './contexts/SelectSingle/index';
 
 export * from './types/DayPickerBase';
 export * from './types/DayPickerDefault';

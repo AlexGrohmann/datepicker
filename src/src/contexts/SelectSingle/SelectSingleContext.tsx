@@ -1,8 +1,8 @@
 import React, { createContext, useContext } from 'react';
 
-import { DayPickerBase } from 'types/DayPickerBase';
-import { DayPickerSingleProps, isDayPickerSingle } from 'types/DayPickerSingle';
-import { DayClickEventHandler } from 'types/EventHandlers';
+import { DayPickerBase } from '../../types/DayPickerBase';
+import { DayPickerSingleProps, isDayPickerSingle } from '../../types/DayPickerSingle';
+import { DayClickEventHandler } from '../../types/EventHandlers';
 
 /** Represents the value of a {@link SelectSingleContext}. */
 export interface SelectSingleContextValue {

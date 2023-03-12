@@ -1,10 +1,10 @@
 import React from 'react';
 
-import { IconLeft } from 'components/IconLeft';
-import { IconRight } from 'components/IconRight';
-import { useDayPicker } from 'contexts/DayPicker';
+import { IconLeft } from '../IconLeft/index';
+import { IconRight } from '../IconRight/index';
+import { useDayPicker } from '../../contexts/DayPicker/index';
 
-import { Button } from '../Button';
+import { Button } from '../Button/index';
 
 /** The props for the {@link Navigation} component. */
 export interface NavigationProps {

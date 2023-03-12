@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { CaptionDropdowns } from 'components/CaptionDropdowns';
-import { CaptionLabel } from 'components/CaptionLabel';
-import { CaptionNavigation } from 'components/CaptionNavigation';
-import { useDayPicker } from 'contexts/DayPicker';
+import { CaptionDropdowns } from '../../components/CaptionDropdowns/index';
+import { CaptionLabel } from '../../components/CaptionLabel/index';
+import { CaptionNavigation } from '../../components/CaptionNavigation/index';
+import { useDayPicker } from '../../contexts/DayPicker/index';
 
 /** Represent the props of the {@link Caption} component. */
 export interface CaptionProps {

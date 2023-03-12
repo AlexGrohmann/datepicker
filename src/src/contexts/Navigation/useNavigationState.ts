@@ -1,7 +1,7 @@
 import { startOfMonth } from 'date-fns';
 
-import { useDayPicker } from 'contexts/DayPicker';
-import { useControlledValue } from 'hooks/useControlledValue';
+import { useDayPicker } from '../../contexts/DayPicker/index';
+import { useControlledValue } from '../../hooks/useControlledValue/index';
 
 import { getInitialMonth } from './utils/getInitialMonth';
 

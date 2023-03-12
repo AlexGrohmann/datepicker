@@ -1,13 +1,13 @@
 import type { Locale } from 'date-fns';
 
-import { CaptionLayout, CaptionProps } from '../components/Caption';
-import { CaptionLabelProps } from '../components/CaptionLabel';
-import { DayProps } from '../components/Day';
-import { DayContentProps } from '../components/DayContent';
-import { DropdownProps } from '../components/Dropdown';
-import { FooterProps } from '../components/Footer';
-import { RowProps } from '../components/Row';
-import { WeekNumberProps } from '../components/WeekNumber';
+import { CaptionLayout, CaptionProps } from '../components/Caption/index';
+import { CaptionLabelProps } from '../components/CaptionLabel/index';
+import { DayProps } from '../components/Day/index';
+import { DayContentProps } from '../components/DayContent/index';
+import { DropdownProps } from '../components/Dropdown/index';
+import { FooterProps } from '../components/Footer/index';
+import { RowProps } from '../components/Row/index';
+import { WeekNumberProps } from '../components/WeekNumber/index';
 
 import {
   DayClickEventHandler,

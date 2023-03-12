@@ -1,10 +1,10 @@
 import React from 'react';
 
-import { Caption } from 'components/Caption';
-import { Table } from 'components/Table';
-import { useDayPicker } from 'contexts/DayPicker';
-import { useNavigation } from 'contexts/Navigation';
-import { useId } from 'hooks/useId';
+import { Caption } from '../../components/Caption/index';
+import { Table } from '../../components/Table/index';
+import { useDayPicker } from '../../contexts/DayPicker/index';
+import { useNavigation } from '../../contexts/Navigation/index';
+import { useId } from '../../hooks/useId';
 
 /** The props for the {@link Month} component. */
 export interface MonthProps {

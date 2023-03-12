@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { useDayPicker } from 'contexts/DayPicker';
-import { ActiveModifiers } from 'types/Modifiers';
+import { useDayPicker } from '../../contexts/DayPicker/index';
+import { ActiveModifiers } from '../../types/Modifiers';
 
 /** Represent the props for the {@link DayContent} component. */
 export interface DayContentProps {

@@ -2,10 +2,10 @@ import React, { createContext, ReactNode, useContext, useState } from 'react';
 
 import { isSameDay } from 'date-fns';
 
-import { useDayPicker } from 'contexts/DayPicker';
+import { useDayPicker } from '../../contexts/DayPicker/index';
 
-import { useModifiers } from '../Modifiers';
-import { useNavigation } from '../Navigation';
+import { useModifiers } from '../Modifiers/index';
+import { useNavigation } from '../Navigation/index';
 import { getInitialFocusTarget } from './utils/getInitialFocusTarget';
 import {
   getNextFocus,

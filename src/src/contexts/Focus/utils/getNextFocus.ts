@@ -11,9 +11,9 @@ import {
   startOfWeek
 } from 'date-fns';
 
-import { DayPickerContextValue } from 'contexts/DayPicker';
-import { getActiveModifiers } from 'contexts/Modifiers';
-import { Modifiers } from 'types/Modifiers';
+import { DayPickerContextValue } from '../../../contexts/DayPicker/index';
+import { getActiveModifiers } from '../../../contexts/Modifiers/index';
+import { Modifiers } from '../../../types/Modifiers';
 
 export type MoveFocusBy =
   | 'day'

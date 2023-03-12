@@ -2,7 +2,7 @@ import React, { createContext, ReactNode, useContext } from 'react';
 
 import { addMonths, isBefore, isSameMonth } from 'date-fns';
 
-import { useDayPicker } from '../DayPicker';
+import { useDayPicker } from '../DayPicker/index';
 import { useNavigationState } from './useNavigationState';
 import { getDisplayMonths } from './utils/getDisplayMonths';
 import { getNextMonth } from './utils/getNextMonth';
