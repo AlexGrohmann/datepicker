@@ -24,7 +24,9 @@ export function CaptionNavigation(props: CaptionProps): JSX.Element {
   if (dir === 'rtl') {
     [isLast, isFirst] = [isFirst, isLast];
   }
-
+  // if previousMonth === undefined
+  // if nextMonth === undefined
+  // if prop hide disabled Navigation dann if statements von oben
   const hideNext = numberOfMonths > 1 && (isFirst || !isLast);
   const hidePrevious = numberOfMonths > 1 && (isLast || !isFirst);
 
